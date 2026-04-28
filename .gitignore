@@ -1,6 +1,5 @@
 node_modules/
 papers.json
-summarized_cache.json
 .env
 .env.local
 .DS_Store
