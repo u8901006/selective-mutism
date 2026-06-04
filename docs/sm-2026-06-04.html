@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>選擇性緘默症研究日報 · 2026年6月4日</title>
+<meta name="description" content="2026年6月4日 選擇性緘默症（Selective Mutism）研究文獻日報，由 AI 自動彙整"/>
+<style>
+  :root { --bg: #f6f1e8; --surface: #fffaf2; --line: #d8c5ab; --text: #2b2118; --muted: #766453; --accent: #8c4f2b; --accent-soft: #ead2bf; --card-bg: color-mix(in srgb, var(--surface) 92%, white); }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: radial-gradient(circle at top, #fff6ea 0, var(--bg) 55%, #ead8c6 100%); color: var(--text); font-family: "Noto Sans TC", "PingFang TC", "Helvetica Neue", Arial, sans-serif; min-height: 100vh; overflow-x: hidden; }
+  .container { position: relative; z-index: 1; max-width: 880px; margin: 0 auto; padding: 60px 32px 80px; }
+  header { display: flex; align-items: center; gap: 16px; margin-bottom: 52px; animation: fadeDown 0.6s ease both; }
+  .logo { width: 48px; height: 48px; border-radius: 14px; background: var(--accent); display: flex; align-items: center; justify-content: center; font-size: 22px; flex-shrink: 0; box-shadow: 0 4px 20px rgba(140,79,43,0.25); }
+  .header-text h1 { font-size: 22px; font-weight: 700; color: var(--text); letter-spacing: -0.3px; }
+  .header-meta { display: flex; gap: 8px; margin-top: 6px; flex-wrap: wrap; align-items: center; }
+  .badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 11px; letter-spacing: 0.3px; }
+  .badge-date { background: var(--accent-soft); border: 1px solid var(--line); color: var(--accent); }
+  .badge-count { background: rgba(140,79,43,0.06); border: 1px solid var(--line); color: var(--muted); }
+  .badge-source { background: transparent; color: var(--muted); font-size: 11px; padding: 0 4px; }
+  .summary-card { background: var(--card-bg); border: 1px solid var(--line); border-radius: 24px; padding: 28px 32px; margin-bottom: 32px; box-shadow: 0 20px 60px rgba(61,36,15,0.06); animation: fadeUp 0.5s ease 0.1s both; }
+  .summary-card h2 { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.6px; color: var(--accent); margin-bottom: 16px; }
+  .summary-text { font-size: 15px; line-height: 1.8; color: var(--text); }
+  .section { margin-bottom: 36px; animation: fadeUp 0.5s ease both; }
+  .section-title { display: flex; align-items: center; gap: 10px; font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+  .section-icon { width: 28px; height: 28px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 14px; flex-shrink: 0; background: var(--accent-soft); }
+  .news-card { background: var(--card-bg); border: 1px solid var(--line); border-radius: 24px; padding: 22px 26px; margin-bottom: 12px; box-shadow: 0 8px 30px rgba(61,36,15,0.04); transition: background 0.2s, border-color 0.2s, transform 0.2s; }
+  .news-card:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(61,36,15,0.08); }
+  .news-card.featured { border-left: 3px solid var(--accent); }
+  .news-card.featured:hover { border-color: var(--accent); }
+  .card-header { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+  .rank-badge { background: var(--accent); color: #fff7f0; font-weight: 700; font-size: 12px; padding: 2px 8px; border-radius: 6px; }
+  .emoji-icon { font-size: 18px; }
+  .card-header-row { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .emoji-sm { font-size: 14px; }
+  .news-card h3 { font-size: 15px; font-weight: 600; color: var(--text); margin-bottom: 8px; line-height: 1.5; }
+  .journal-source { font-size: 12px; color: var(--accent); margin-bottom: 8px; opacity: 0.8; }
+  .news-card p { font-size: 13.5px; line-height: 1.75; color: var(--muted); }
+  .card-footer { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .tag { padding: 2px 9px; background: var(--accent-soft); border-radius: 999px; font-size: 11px; color: var(--accent); }
+  .news-card a { font-size: 12px; color: var(--accent); text-decoration: none; opacity: 0.7; margin-left: auto; }
+  .news-card a:hover { opacity: 1; }
+  .utility-high { color: #5a7a3a; font-size: 11px; font-weight: 600; padding: 2px 8px; background: rgba(90,122,58,0.1); border-radius: 4px; }
+  .utility-mid { color: #9f7a2e; font-size: 11px; font-weight: 600; padding: 2px 8px; background: rgba(159,122,46,0.1); border-radius: 4px; }
+  .utility-low { color: var(--muted); font-size: 11px; font-weight: 600; padding: 2px 8px; background: rgba(118,100,83,0.08); border-radius: 4px; }
+  .utility-sm { font-size: 10px; }
+  .pico-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 12px; padding: 12px; background: rgba(255,253,249,0.8); border-radius: 14px; border: 1px solid var(--line); }
+  .pico-item { display: flex; gap: 8px; align-items: baseline; }
+  .pico-label { font-size: 10px; font-weight: 700; color: #fff7f0; background: var(--accent); padding: 2px 6px; border-radius: 4px; flex-shrink: 0; }
+  .pico-text { font-size: 12px; color: var(--muted); line-height: 1.4; }
+  .keywords-section { margin-bottom: 36px; }
+  .keywords { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+  .keyword { padding: 5px 14px; background: var(--accent-soft); border: 1px solid var(--line); border-radius: 20px; font-size: 12px; color: var(--accent); cursor: default; transition: background 0.2s; }
+  .keyword:hover { background: rgba(140,79,43,0.18); }
+  .topic-section { margin-bottom: 36px; }
+  .topic-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+  .topic-name { font-size: 13px; color: var(--muted); width: 100px; flex-shrink: 0; text-align: right; }
+  .topic-bar-bg { flex: 1; height: 8px; background: var(--line); border-radius: 4px; overflow: hidden; }
+  .topic-bar { height: 100%; background: linear-gradient(90deg, var(--accent), #c47a4a); border-radius: 4px; transition: width 0.6s ease; }
+  .topic-count { font-size: 12px; color: var(--accent); width: 24px; }
+  .footer-links { margin-top: 48px; display: flex; flex-direction: column; gap: 12px; animation: fadeUp 0.5s ease 0.4s both; }
+  .footer-link-card { display: flex; align-items: center; gap: 14px; padding: 18px 24px; background: var(--card-bg); border: 1px solid var(--line); border-radius: 24px; text-decoration: none; color: var(--text); transition: all 0.2s; box-shadow: 0 8px 30px rgba(61,36,15,0.04); }
+  .footer-link-card:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 12px 40px rgba(61,36,15,0.08); }
+  .footer-link-icon { font-size: 28px; flex-shrink: 0; }
+  .footer-link-name { font-size: 15px; font-weight: 700; color: var(--text); flex: 1; }
+  .footer-link-arrow { font-size: 18px; color: var(--accent); font-weight: 700; }
+  .footer-meta { margin-top: 32px; padding-top: 22px; border-top: 1px solid var(--line); font-size: 11.5px; color: var(--muted); display: flex; justify-content: space-between; animation: fadeUp 0.5s ease 0.5s both; }
+  .footer-meta a { color: var(--muted); text-decoration: none; }
+  .footer-meta a:hover { color: var(--accent); }
+  @keyframes fadeDown { from { opacity: 0; transform: translateY(-16px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+  @media (max-width: 600px) { .container { padding: 36px 18px 60px; } .summary-card, .news-card { padding: 20px 18px; } .pico-grid { grid-template-columns: 1fr; } .footer-meta { flex-direction: column; gap: 6px; text-align: center; } .topic-name { width: 70px; font-size: 11px; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="logo">🤫</div>
+    <div class="header-text">
+      <h1>選擇性緘默症研究日報</h1>
+      <div class="header-meta">
+        <span class="badge badge-date">2026年6月4日（週四）</span>
+        <span class="badge badge-count">11 篇文獻</span>
+        <span class="badge badge-source">PubMed · EuropePMC · Crossref · OpenAlex · Semantic Scholar · ERIC</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="summary-card">
+    <h2>📋 今日總覽</h2>
+    <p class="summary-text">今日資料庫檢索之文獻中無直接探討選擇性緘默症（SM）之研究，整體資料高度偏向腫瘤藥物學與基礎分子生物學；僅有一篇探討幼兒教養方式與社會技能之研究，對理解 SM 之環境風險因子與家長指導具間接參考價值。</p>
+  </div>
+
+  <div class="section"><div class="section-title"><span class="section-icon">⭐</span>今日精選 TOP 1</div>
+        <div class="news-card featured">
+          <div class="card-header">
+            <span class="rank-badge">#1</span>
+            <span class="emoji-icon">👨‍👩‍👧‍👦</span>
+            <span class="utility-low">低實用性</span>
+          </div>
+          <h3>教養方式對幼兒動作發展與社會技能的影響：社會動作支持交換（SEMS）的中介角色</h3>
+          <p class="journal-source">Jurnal Konseling dan Pendidikan · Mediating role of SEMS in the effect parenting styles and early childhood motor development and social skills</p>
+          <p>雖非直接探討選擇性緘默症，但本研究透過結構方程模型證實教養方式會透過社會動作支持顯著影響幼兒社會技能，此對理解 SM 兒童之家庭動態與早期預防介入具間接參考價值。</p>
+          <div class="pico-grid">
+          <div class="pico-item"><span class="pico-label">P</span><span class="pico-text">70名就讀於印尼巴布亞市早期兒童教育機構的幼兒</span></div>
+          <div class="pico-item"><span class="pico-label">I</span><span class="pico-text">不同教養方式與社會動作支持交換（SEMS）</span></div>
+          <div class="pico-item"><span class="pico-label">C</span><span class="pico-text">無直接對照組（以變項間路徑關係進行比較）</span></div>
+          <div class="pico-item"><span class="pico-label">O</span><span class="pico-text">幼兒動作發展量表與社會技能評分量表得分</span></div>
+        </div>
+          <div class="card-footer">
+            <span class="tag">家長訓練</span><span class="tag">社會焦慮</span>
+            <a href="https://doi.org/10.29210/1208900" target="_blank">閱讀原文 →</a>
+          </div>
+        </div></div>
+
+  <div class="section"><div class="section-title"><span class="section-icon">📚</span>所有文獻</div>
+        <div class="news-card">
+          <div class="card-header-row">
+            <span class="emoji-sm">💊</span>
+            <span class="utility-low utility-sm">低</span>
+          </div>
+          <h3>Daraxonrasib（RAS(ON)多選擇性抑制劑）對比化療用於既往治療的轉移性胰腺腺癌：3期RASolute 302研究的主要與最終分析</h3>
+          <p class="journal-source">Journal of Clinical Oncology</p>
+          <p>【非SM相關】第三期臨床試驗顯示 Daraxonrasib 在轉移性胰臟癌二線治療中，相較於化療顯著改善總生存期與無進展生存期。</p>
+          <div class="card-footer">
+            <span class="tag">系統性回顧</span>
+            <a href="https://doi.org/10.1200/jco.2026.44.17_suppl.lba5" target="_blank">PubMed →</a>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="card-header-row">
+            <span class="emoji-sm">🧪</span>
+            <span class="utility-low utility-sm">低</span>
+          </div>
+          <h3>含肝臟模型體外鹼性彗星實驗作為N-亞硝胺遺傳毒性評估的補充工具</h3>
+          <p class="journal-source">Archives of Toxicology</p>
+          <p>【非SM相關】研究評估不同肝細胞模型結合體外彗星實驗對預測N-亞硝胺致癌性的靈敏度與特異度。</p>
+          <div class="card-footer">
+            <span class="tag">神經科學</span>
+            <a href="https://doi.org/10.1007/s00204-026-04457-1" target="_blank">PubMed →</a>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="card-header-row">
+            <span class="emoji-sm">🧬</span>
+            <span class="utility-low utility-sm">低</span>
+          </div>
+          <h3>MutLγ、Mus81-Mms4和STR在減數分裂Holliday交界處理中的不同與重疊角色</h3>
+          <p class="journal-source">Nature Communications</p>
+          <p>【非SM相關】利用酵母實驗系統揭示ZMM蛋白在減數分裂雙Holliday交界處理中建立層級機制，優先引導MutLγ介導的交叉。</p>
+          <div class="card-footer">
+            <span class="tag">神經影像</span>
+            <a href="https://doi.org/10.1038/s41467-026-73888-2" target="_blank">PubMed →</a>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="card-header-row">
+            <span class="emoji-sm">🛡️</span>
+            <span class="utility-low utility-sm">低</span>
+          </div>
+          <h3>抑制鞘氨醇激酶-2通過乙酰輔酶A羧化酶-磷脂醯膽鹼軸促進骨髓源性抑制細胞的免疫原性分化</h3>
+          <p class="journal-source">Nature Communications</p>
+          <p>【非SM相關】發現SphK2衍生的S1P透過抑制ACC影響磷脂醯膽鹼合成，藥理抑制SphK2可重程式化MDSCs並提升抗PD-1療效。</p>
+          <div class="card-footer">
+            <span class="tag">藥物治療</span>
+            <a href="https://doi.org/10.1038/s41467-026-73827-1" target="_blank">PubMed →</a>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="card-header-row">
+            <span class="emoji-sm">🦠</span>
+            <span class="utility-low utility-sm">低</span>
+          </div>
+          <h3>分子寵物還是寄生蟲？探討質體垂直與水平轉移的選擇壓力</h3>
+          <p class="journal-source">bioRxiv (Cold Spring Harbor Laboratory)</p>
+          <p>【非SM相關】建立數學模型與實驗驗證，證明標準批次培養方案會對垂直轉移施加強烈選擇壓，修改方案可將選擇傾向水平轉移。</p>
+          <div class="card-footer">
+            <span class="tag">長期追蹤</span>
+            <a href="https://doi.org/10.64898/2026.06.02.729688" target="_blank">PubMed →</a>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="card-header-row">
+            <span class="emoji-sm">🌿</span>
+            <span class="utility-low utility-sm">低</span>
+          </div>
+          <h3>DIMORPH：一個用於喜樹鹼生產植物的整合多組學資源數據庫</h3>
+          <p class="journal-source">Molecular Horticulture</p>
+          <p>【非SM相關】建構了整合三種喜樹鹼生產植物基因組、轄錄組與代謝組數據的數據庫，並成功鑑定出新的CPT 10-羥化酶。</p>
+          <div class="card-footer">
+            <span class="tag">篩檢評估</span>
+            <a href="https://doi.org/10.1186/s43897-025-00225-4" target="_blank">PubMed →</a>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="card-header-row">
+            <span class="emoji-sm">🐟</span>
+            <span class="utility-low utility-sm">低</span>
+          </div>
+          <h3>水產養殖中的植物療法作為疾病管理中抗生素的永續替代方案</h3>
+          <p class="journal-source">Discover Animals</p>
+          <p>【非SM相關】綜述探討植物萃取物在水產養殖中作為抗菌劑、生長促進劑與免疫刺激劑的潛力與應用現況。</p>
+          <div class="card-footer">
+            <span class="tag">個案報告</span>
+            <a href="https://doi.org/10.1007/s44338-026-00200-3" target="_blank">PubMed →</a>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="card-header-row">
+            <span class="emoji-sm">🔬</span>
+            <span class="utility-low utility-sm">低</span>
+          </div>
+          <h3>RAF265透過靶向USP10/SCD1軸抑制頭頸鱗狀細胞癌的脂肪生成並誘導鐵死亡</h3>
+          <p class="journal-source">Cell Death Discovery</p>
+          <p>【非SM相關】研究揭示E2F4/USP10/SCD1途徑在調控鐵死亡與頭頸癌進展中的關鍵角色，且現有藥物RAF265可有效靶向該軸。</p>
+          <div class="card-footer">
+            <span class="tag">SSRI</span>
+            <a href="https://doi.org/10.1038/s41420-026-03180-1" target="_blank">PubMed →</a>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="card-header-row">
+            <span class="emoji-sm">🫁</span>
+            <span class="utility-low utility-sm">低</span>
+          </div>
+          <h3>Osimertinib在EGFR突變非小細胞肺癌中的應用：臨床證據綜合敘述回顧</h3>
+          <p class="journal-source">Journal of Translational Genetics and Genomics</p>
+          <p>【非SM相關】全面回顧第三代EGFR-TKI osimertinib的臨床適應症、中樞神經系統控制、抗藥性機制及後線治療策略。</p>
+          <div class="card-footer">
+            <span class="tag">藥物治療</span>
+            <a href="https://doi.org/10.20517/jtgg.2025.126" target="_blank">PubMed →</a>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="card-header-row">
+            <span class="emoji-sm">🌱</span>
+            <span class="utility-low utility-sm">低</span>
+          </div>
+          <h3>膜錨定木瓜蛋白酶樣半胱氨酸蛋白酶抑制劑促進假單胞菌根部定殖</h3>
+          <p class="journal-source">bioRxiv (Cold Spring Harbor Laboratory)</p>
+          <p>【非SM相關】發現假單胞菌表面的一種脂蛋白Cpi1能抑制植物免疫相關蛋白酶，從而幫助細菌在玉米根部建立定殖。</p>
+          <div class="card-footer">
+            <span class="tag">行為抑制</span>
+            <a href="https://doi.org/10.64898/2026.06.02.729523" target="_blank">PubMed →</a>
+          </div>
+        </div></div>
+
+  <div class="section topic-section"><div class="section-title"><span class="section-icon">📊</span>主題分布</div>
+            <div class="topic-row">
+              <span class="topic-name">社會焦慮</span>
+              <div class="topic-bar-bg"><div class="topic-bar" style="width:100%"></div></div>
+              <span class="topic-count">1</span>
+            </div>
+            <div class="topic-row">
+              <span class="topic-name">家長訓練</span>
+              <div class="topic-bar-bg"><div class="topic-bar" style="width:100%"></div></div>
+              <span class="topic-count">1</span>
+            </div></div>
+
+  <div class="section keywords-section"><div class="section-title"><span class="section-icon">🏷️</span>關鍵字</div><div class="keywords"><span class="keyword">選擇性緘默症</span><span class="keyword">幼兒社會技能</span><span class="keyword">教養方式</span><span class="keyword">環境風險因子</span></div></div>
+
+  <div class="footer-links">
+    <a class="footer-link-card" href="https://www.leepsyclinic.com/" target="_blank">
+      <span class="footer-link-icon">🏥</span>
+      <span class="footer-link-name">李政洋身心診所首頁</span>
+      <span class="footer-link-arrow">→</span>
+    </a>
+    <a class="footer-link-card" href="https://blog.leepsyclinic.com/" target="_blank">
+      <span class="footer-link-icon">📬</span>
+      <span class="footer-link-name">訂閱電子報</span>
+      <span class="footer-link-arrow">→</span>
+    </a>
+    <a class="footer-link-card" href="https://buymeacoffee.com/CYlee" target="_blank">
+      <span class="footer-link-icon">☕</span>
+      <span class="footer-link-name">Buy Me a Coffee</span>
+      <span class="footer-link-arrow">→</span>
+    </a>
+  </div>
+
+  <div class="footer-meta">
+    <span>Powered by Multi-Database + Zhipu AI</span>
+    <a href="https://github.com/u8901006/selective-mutism">GitHub</a>
+  </div>
+</div>
+</body>
+</html>
