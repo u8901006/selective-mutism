@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>選擇性緘默症研究日報 · 2026年7月10日</title>
+<meta name="description" content="2026年7月10日 選擇性緘默症（Selective Mutism）研究文獻日報，由 AI 自動彙整"/>
+<style>
+  :root { --bg: #f6f1e8; --surface: #fffaf2; --line: #d8c5ab; --text: #2b2118; --muted: #766453; --accent: #8c4f2b; --accent-soft: #ead2bf; --card-bg: color-mix(in srgb, var(--surface) 92%, white); }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: radial-gradient(circle at top, #fff6ea 0, var(--bg) 55%, #ead8c6 100%); color: var(--text); font-family: "Noto Sans TC", "PingFang TC", "Helvetica Neue", Arial, sans-serif; min-height: 100vh; overflow-x: hidden; }
+  .container { position: relative; z-index: 1; max-width: 880px; margin: 0 auto; padding: 60px 32px 80px; }
+  header { display: flex; align-items: center; gap: 16px; margin-bottom: 52px; animation: fadeDown 0.6s ease both; }
+  .logo { width: 48px; height: 48px; border-radius: 14px; background: var(--accent); display: flex; align-items: center; justify-content: center; font-size: 22px; flex-shrink: 0; box-shadow: 0 4px 20px rgba(140,79,43,0.25); }
+  .header-text h1 { font-size: 22px; font-weight: 700; color: var(--text); letter-spacing: -0.3px; }
+  .header-meta { display: flex; gap: 8px; margin-top: 6px; flex-wrap: wrap; align-items: center; }
+  .badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 11px; letter-spacing: 0.3px; }
+  .badge-date { background: var(--accent-soft); border: 1px solid var(--line); color: var(--accent); }
+  .badge-count { background: rgba(140,79,43,0.06); border: 1px solid var(--line); color: var(--muted); }
+  .badge-source { background: transparent; color: var(--muted); font-size: 11px; padding: 0 4px; }
+  .summary-card { background: var(--card-bg); border: 1px solid var(--line); border-radius: 24px; padding: 28px 32px; margin-bottom: 32px; box-shadow: 0 20px 60px rgba(61,36,15,0.06); animation: fadeUp 0.5s ease 0.1s both; }
+  .summary-card h2 { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.6px; color: var(--accent); margin-bottom: 16px; }
+  .summary-text { font-size: 15px; line-height: 1.8; color: var(--text); }
+  .section { margin-bottom: 36px; animation: fadeUp 0.5s ease both; }
+  .section-title { display: flex; align-items: center; gap: 10px; font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+  .section-icon { width: 28px; height: 28px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 14px; flex-shrink: 0; background: var(--accent-soft); }
+  .news-card { background: var(--card-bg); border: 1px solid var(--line); border-radius: 24px; padding: 22px 26px; margin-bottom: 12px; box-shadow: 0 8px 30px rgba(61,36,15,0.04); transition: background 0.2s, border-color 0.2s, transform 0.2s; }
+  .news-card:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(61,36,15,0.08); }
+  .news-card.featured { border-left: 3px solid var(--accent); }
+  .news-card.featured:hover { border-color: var(--accent); }
+  .card-header { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+  .rank-badge { background: var(--accent); color: #fff7f0; font-weight: 700; font-size: 12px; padding: 2px 8px; border-radius: 6px; }
+  .emoji-icon { font-size: 18px; }
+  .card-header-row { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .emoji-sm { font-size: 14px; }
+  .news-card h3 { font-size: 15px; font-weight: 600; color: var(--text); margin-bottom: 8px; line-height: 1.5; }
+  .journal-source { font-size: 12px; color: var(--accent); margin-bottom: 8px; opacity: 0.8; }
+  .news-card p { font-size: 13.5px; line-height: 1.75; color: var(--muted); }
+  .card-footer { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .tag { padding: 2px 9px; background: var(--accent-soft); border-radius: 999px; font-size: 11px; color: var(--accent); }
+  .news-card a { font-size: 12px; color: var(--accent); text-decoration: none; opacity: 0.7; margin-left: auto; }
+  .news-card a:hover { opacity: 1; }
+  .utility-high { color: #5a7a3a; font-size: 11px; font-weight: 600; padding: 2px 8px; background: rgba(90,122,58,0.1); border-radius: 4px; }
+  .utility-mid { color: #9f7a2e; font-size: 11px; font-weight: 600; padding: 2px 8px; background: rgba(159,122,46,0.1); border-radius: 4px; }
+  .utility-low { color: var(--muted); font-size: 11px; font-weight: 600; padding: 2px 8px; background: rgba(118,100,83,0.08); border-radius: 4px; }
+  .utility-sm { font-size: 10px; }
+  .pico-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 12px; padding: 12px; background: rgba(255,253,249,0.8); border-radius: 14px; border: 1px solid var(--line); }
+  .pico-item { display: flex; gap: 8px; align-items: baseline; }
+  .pico-label { font-size: 10px; font-weight: 700; color: #fff7f0; background: var(--accent); padding: 2px 6px; border-radius: 4px; flex-shrink: 0; }
+  .pico-text { font-size: 12px; color: var(--muted); line-height: 1.4; }
+  .keywords-section { margin-bottom: 36px; }
+  .keywords { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+  .keyword { padding: 5px 14px; background: var(--accent-soft); border: 1px solid var(--line); border-radius: 20px; font-size: 12px; color: var(--accent); cursor: default; transition: background 0.2s; }
+  .keyword:hover { background: rgba(140,79,43,0.18); }
+  .topic-section { margin-bottom: 36px; }
+  .topic-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+  .topic-name { font-size: 13px; color: var(--muted); width: 100px; flex-shrink: 0; text-align: right; }
+  .topic-bar-bg { flex: 1; height: 8px; background: var(--line); border-radius: 4px; overflow: hidden; }
+  .topic-bar { height: 100%; background: linear-gradient(90deg, var(--accent), #c47a4a); border-radius: 4px; transition: width 0.6s ease; }
+  .topic-count { font-size: 12px; color: var(--accent); width: 24px; }
+  .footer-links { margin-top: 48px; display: flex; flex-direction: column; gap: 12px; animation: fadeUp 0.5s ease 0.4s both; }
+  .footer-link-card { display: flex; align-items: center; gap: 14px; padding: 18px 24px; background: var(--card-bg); border: 1px solid var(--line); border-radius: 24px; text-decoration: none; color: var(--text); transition: all 0.2s; box-shadow: 0 8px 30px rgba(61,36,15,0.04); }
+  .footer-link-card:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 12px 40px rgba(61,36,15,0.08); }
+  .footer-link-icon { font-size: 28px; flex-shrink: 0; }
+  .footer-link-name { font-size: 15px; font-weight: 700; color: var(--text); flex: 1; }
+  .footer-link-arrow { font-size: 18px; color: var(--accent); font-weight: 700; }
+  .footer-meta { margin-top: 32px; padding-top: 22px; border-top: 1px solid var(--line); font-size: 11.5px; color: var(--muted); display: flex; justify-content: space-between; animation: fadeUp 0.5s ease 0.5s both; }
+  .footer-meta a { color: var(--muted); text-decoration: none; }
+  .footer-meta a:hover { color: var(--accent); }
+  @keyframes fadeDown { from { opacity: 0; transform: translateY(-16px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+  @media (max-width: 600px) { .container { padding: 36px 18px 60px; } .summary-card, .news-card { padding: 20px 18px; } .pico-grid { grid-template-columns: 1fr; } .footer-meta { flex-direction: column; gap: 6px; text-align: center; } .topic-name { width: 70px; font-size: 11px; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="logo">🤫</div>
+    <div class="header-text">
+      <h1>選擇性緘默症研究日報</h1>
+      <div class="header-meta">
+        <span class="badge badge-date">2026年7月10日（週五）</span>
+        <span class="badge badge-count">4 篇文獻</span>
+        <span class="badge badge-source">PubMed · EuropePMC · Crossref · OpenAlex · Semantic Scholar · ERIC</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="summary-card">
+    <h2>📋 今日總覽</h2>
+    <p class="summary-text">今日文獻顯示選擇性緘默症（SM）的專門臨床研究相對稀缺，搜尋結果多為化學領域的「選擇性」干擾項。最相關的研究指出音樂治療目前尚缺乏針對 SM 的直接有效性證據；另有一篇關於神經發展障礙（NDD）的大型基因學研究，雖非專注於 SM，但提供了理解神經發展障礙生物學基礎的重要背景。</p>
+  </div>
+
+  <div class="section"><div class="section-title"><span class="section-icon">⭐</span>今日精選 TOP 2</div>
+        <div class="news-card featured">
+          <div class="card-header">
+            <span class="rank-badge">#1</span>
+            <span class="emoji-icon">🎵</span>
+            <span class="utility-mid">中實用性</span>
+          </div>
+          <h3>接受心理健康服務的選擇性緘默症兒童與青少年，音樂治療的有效性、可接受性與臨床價值證據為何？</h3>
+          <p class="journal-source">Zenodo (CERN European Organization for Nuclear Research) · What is the evidence for the effectiveness, acceptability, and clinical value of music therapy for children and adolescents with selective mutism receiving mental health services?</p>
+          <p>系統性回顧指出目前沒有直接證據支持音樂治療對選擇性緘默症的療效，儘管其可能透過改善社交技能帶來間接益處，但仍需更多針對性研究來確認。</p>
+          <div class="pico-grid">
+          <div class="pico-item"><span class="pico-label">P</span><span class="pico-text">接受心理健康服務的選擇性緘默症兒童與青少年</span></div>
+          <div class="pico-item"><span class="pico-label">I</span><span class="pico-text">音樂治療</span></div>
+          <div class="pico-item"><span class="pico-label">C</span><span class="pico-text">無直接對照組（主要為現有文獻回顧）</span></div>
+          <div class="pico-item"><span class="pico-label">O</span><span class="pico-text">臨床有效性、可接受性、治療價值與社交技能改善</span></div>
+        </div>
+          <div class="card-footer">
+            <span class="tag">選擇性緘默症核心</span><span class="tag">系統性回顧</span><span class="tag">社會焦慮</span>
+            <a href="https://doi.org/10.5281/zenodo.21276874" target="_blank">閱讀原文 →</a>
+          </div>
+        </div>
+        <div class="news-card featured">
+          <div class="card-header">
+            <span class="rank-badge">#2</span>
+            <span class="emoji-icon">🧬</span>
+            <span class="utility-low">低實用性</span>
+          </div>
+          <h3>NeuroWES 專案：十年來神經發展障礙全面表型分析與基因分析之經驗教訓</h3>
+          <p class="journal-source">Human Genetics · The NeuroWES project: lessons learned from comprehensive phenotyping and genetic analysis of neurodevelopmental disorders over a decade</p>
+          <p>該研究透過十年的數據分析，強調了人工檢閱與深度表型分析在提升神經發展障礙基因診斷率及解釋複雜疾病機制中的關鍵角色。</p>
+          <div class="pico-grid">
+          <div class="pico-item"><span class="pico-label">P</span><span class="pico-text">419 對神經發展障礙患者親子對</span></div>
+          <div class="pico-item"><span class="pico-label">I</span><span class="pico-text">全外顯子定序（ES）結合人工檢閱與深度表型分析</span></div>
+          <div class="pico-item"><span class="pico-label">C</span><span class="pico-text">自動化分析流程</span></div>
+          <div class="pico-item"><span class="pico-label">O</span><span class="pico-text">分子診斷率、變異分類準確性、對疾病機制的新發現</span></div>
+        </div>
+          <div class="card-footer">
+            <span class="tag">神經科學</span><span class="tag">篩檢評估</span>
+            <a href="https://doi.org/10.1007/s00439-026-02843-4" target="_blank">閱讀原文 →</a>
+          </div>
+        </div></div>
+
+  <div class="section"><div class="section-title"><span class="section-icon">📚</span>所有文獻</div>
+        <div class="news-card">
+          <div class="card-header-row">
+            <span class="emoji-sm">🎵</span>
+            <span class="utility-mid utility-sm">中</span>
+          </div>
+          <h3>接受心理健康服務的選擇性緘默症兒童與青少年，音樂治療的有效性、可接受性與臨床價值證據為何？</h3>
+          <p class="journal-source">Zenodo (CERN European Organization for Nuclear Research)</p>
+          <p>現有文獻未發現音樂治療對 SM 的直接療效證據，建議未來進行更多針對性研究。</p>
+          <div class="card-footer">
+            <span class="tag">選擇性緘默症核心</span><span class="tag">系統性回顧</span>
+            <a href="https://doi.org/10.5281/zenodo.21276874" target="_blank">PubMed →</a>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="card-header-row">
+            <span class="emoji-sm">🧬</span>
+            <span class="utility-low utility-sm">低</span>
+          </div>
+          <h3>NeuroWES 專案：十年來神經發展障礙全面表型分析與基因分析之經驗教訓</h3>
+          <p class="journal-source">Human Genetics</p>
+          <p>研究展示了人工基因檢閱與深度表型分析對於神經發展障礙診斷的重要性。</p>
+          <div class="card-footer">
+            <span class="tag">神經科學</span><span class="tag">篩檢評估</span>
+            <a href="https://doi.org/10.1007/s00439-026-02843-4" target="_blank">PubMed →</a>
+          </div>
+        </div></div>
+
+  <div class="section topic-section"><div class="section-title"><span class="section-icon">📊</span>主題分布</div>
+            <div class="topic-row">
+              <span class="topic-name">選擇性緘默症核心</span>
+              <div class="topic-bar-bg"><div class="topic-bar" style="width:100%"></div></div>
+              <span class="topic-count">1</span>
+            </div>
+            <div class="topic-row">
+              <span class="topic-name">神經科學</span>
+              <div class="topic-bar-bg"><div class="topic-bar" style="width:100%"></div></div>
+              <span class="topic-count">1</span>
+            </div></div>
+
+  <div class="section keywords-section"><div class="section-title"><span class="section-icon">🏷️</span>關鍵字</div><div class="keywords"><span class="keyword">音樂治療</span><span class="keyword">基因診斷</span><span class="keyword">神經發展障礙</span><span class="keyword">證據基礎</span></div></div>
+
+  <div class="footer-links">
+    <a class="footer-link-card" href="https://www.leepsyclinic.com/" target="_blank">
+      <span class="footer-link-icon">🏥</span>
+      <span class="footer-link-name">李政洋身心診所首頁</span>
+      <span class="footer-link-arrow">→</span>
+    </a>
+    <a class="footer-link-card" href="https://blog.leepsyclinic.com/" target="_blank">
+      <span class="footer-link-icon">📬</span>
+      <span class="footer-link-name">訂閱電子報</span>
+      <span class="footer-link-arrow">→</span>
+    </a>
+    <a class="footer-link-card" href="https://buymeacoffee.com/CYlee" target="_blank">
+      <span class="footer-link-icon">☕</span>
+      <span class="footer-link-name">Buy Me a Coffee</span>
+      <span class="footer-link-arrow">→</span>
+    </a>
+  </div>
+
+  <div class="footer-meta">
+    <span>Powered by Multi-Database + Zhipu AI</span>
+    <a href="https://github.com/u8901006/selective-mutism">GitHub</a>
+  </div>
+</div>
+</body>
+</html>
